@@ -38,7 +38,7 @@ const UploadPage: React.FC = () => {
 
     try {
       const response = await axios.post(
-        "https://54.152.234.68/upload-image/",
+        "https://bt.arnabchatterjee.site/upload-image/",
         formData,
         {
           headers: {
